@@ -44,3 +44,9 @@
 - Show database in database tool window
 - Execute query in `select.sql`
 - Modify select to show autocompletion
+- Show Plugin Settings
+
+## Epilogue
+
+- Download from JetBrains Marketplace
+- Beta Testing / Contributing
