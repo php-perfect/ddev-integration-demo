@@ -31,6 +31,7 @@
   xdebug.start_with_request = trigger
   ```
 - Set `xdebug_enabled=1` in `.ddev/config.yml`
+- Place breakpoint in World.php
 - Debug WorldTest.php
 - Run with coverage WorldTest.php -> Error because of missing /opt/phpstorm-coverage
 - Open DDEV Terminal
@@ -38,6 +39,8 @@
     - `sudo chmod a+rw /opt/phpstorm-coverage`
 - Run WorldTest with coverage again
 - Open Website via Status Bar
+- Switch on debug listener
+- Show XDebug from browser
 - Open Mailhog via Status Bar
 - Open Database Administration via Status Bar
 - Execute queries in `create.sql`

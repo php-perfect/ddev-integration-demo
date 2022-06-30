@@ -1,3 +1,10 @@
+<?php
+
+use App\World;
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -5,8 +12,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DDEV Integration</title>
-    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/php-perfect/ddev-intellij-plugin/main/src/main/resources/META-INF/pluginIcon.svg">
+    <title><?php echo (new World())->hello(); ?></title>
+    <link rel="icon" type="image/x-icon"
+          href="https://raw.githubusercontent.com/php-perfect/ddev-intellij-plugin/main/src/main/resources/META-INF/pluginIcon.svg">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <script>
